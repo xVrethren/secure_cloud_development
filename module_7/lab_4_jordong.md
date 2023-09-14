@@ -1,0 +1,6 @@
+# A view of your EBS volumes after completing the lab tasks.
+![](pics/Screenshot%202023-09-06%20at%2010.22.29%20PM.png)
+
+So, Amazon EBS is persistent storage you can attach to an Amazon EC2 instance. It only works within the same availability zone and only one EC2 instance can use an EBS volume at a time. Amazon EFS is a shared file system that multiple Amazon EC2 instances can use simultaneously, this is good for collaborations. Amazon S3 turns each file into an object with its own URL that can be accessed from anywhere. And Amazon S3 Glacier holds stuff you don't need right now but might want later. This is good for things like archives.
+
+In addition, Amazon Elastic Block Store (EBS) provides block-level storage, allowing users to create individual storage volumes and attach them directly to Amazon EC2 instances. These volumes ensure data durability by automatically replicating within their designated availability zones. Some common uses for EBS are low latency, storing of AMIs for potential future use, a snapshot feature for backups, booting EC2 instances, file system data storage, database hosting, and supporting enterprise applications.
